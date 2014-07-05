@@ -14,23 +14,101 @@
  *  Theme customization starts here
 /* ------------------------------------------------------------------------- */
 
-/* Global */
-.mystyle {}
+@import  "http://fonts.googleapis.com/css?family=Allura";
 
-
-/* Tablet - 800px, 768px & 720px */
-@media only screen and (min-width: 720px) and (max-width: 800px) {
-	.mystyle {}
+/* Move Site description a bit... */
+.site-description {
+	font-family: 'Allura', Verdana, Geneva, sans-serif;
+	font-size: 70px;
+	color: #f0f0f0;
+	text-decoration: none;
+	margin-top: 15px;
 }
 
-
-/* Mobile - 480px & 320px */
-@media only screen and (max-width: 719px) {
-	.mystyle {}
+/* Display match-results in a nice way... */
+table.results td:nth-child(1) {
+	text-align: right;
 }
 
+table.results td:nth-child(3) {
+	text-align: left;
+}
 
-/* Mobile - 320px */
-@media only screen and (max-width: 479px) {
-	.mystyle {}
+table.results td:nth-child(1), table.results td:nth-child(3) {
+	width: 335px;
+}
+
+table.results td:nth-child(2) {
+	width: 48px !important;
+	white-space: nowrap;
+}
+
+table.results span.result {
+	background: #3280af;
+	border-radius: 3px;
+	font-weight: bold;
+	padding: 4px;
+	height: 25px,;
+	color: #fff;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	width: 40px;
+}
+
+/* Timeline Testing */
+.timeline {
+	margin-left: 30px;
+	list-style: none !important;
+	position: relative;
+}
+
+.timeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #afdcf8;
+	left: 100px;
+	margin-left: -10px;
+}
+
+.timeline > li {
+	position: relative;
+	list-style: none !important;
+}
+
+.timeline > li time {
+	display: block;
+	width: 100px;
+	padding-right: 80px;
+	position: absolute;
+	font-family: Titillium, Arial, sans-serif;
+	font-size: 28px;
+}
+
+.timeline > li i {
+	position: absolute;
+	color: #fff;
+	background: #46a4da;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #afdcf8;
+	text-align: center;
+	left: 110px;
+	top: 0;
+	margin: 0 0 0 -25px;
+}
+
+.timeline > li .entry {
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #3594cb;
+	color: #fff;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
 }
