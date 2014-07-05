@@ -1,5 +1,4 @@
 <div class="page-title pad group">
-
 	<?php if ( is_home() ) : ?>
 		<h2><?php echo alx_blog_title(); ?></h2>
 
@@ -7,7 +6,7 @@
 		<ul class="meta-single group">
 			<!--<li class="category"><?php the_category(' <span>/</span> '); ?></li>-->
 			<?php if ( function_exists('yoast_breadcrumb') ) {
-				yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+				yoast_breadcrumb('<li id="breadcrumbs">','</li>');
 			} ?>
 			<?php if ( comments_open() && ( ot_get_option( 'comment-count' ) != 'off' ) ): ?>
 			<li class="comments"><a href="<?php comments_link(); ?>"><i class="fa fa-comments-o"></i><?php comments_number( '0', '1', '%' ); ?></a></li>
@@ -33,7 +32,7 @@
 	<?php elseif ( is_category() ): ?>
 		<h1><i class="fa fa-folder-open"></i><?php _e('Category:','hueman'); ?>
 			<?php if ( function_exists('yoast_breadcrumb') ) {
-				yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+				yoast_breadcrumb('<span id="breadcrumbs">','</span>');
 			} ?>
 		</h1>
 	<?php elseif ( is_tag() ): ?>
