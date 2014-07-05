@@ -36,16 +36,32 @@
 			} ?>
 		</h1>
 	<?php elseif ( is_tag() ): ?>
-		<h1><i class="fa fa-tags"></i><?php _e('Tagged:','hueman'); ?> <span><?php echo single_tag_title('', false); ?></span></h1>
+		<h1><i class="fa fa-tags"></i><?php _e('Tagged:','hueman'); ?> 
+			<?php if ( function_exists('bcn_display') ) {
+				bcn_display();
+			} ?>
+		</h1>
 		
 	<?php elseif ( is_day() ): ?>
-		<h1><i class="fa fa-calendar"></i><?php _e('Daily Archive:','hueman'); ?> <span><?php echo get_the_time('F j, Y'); ?></span></h1>
+		<h1><i class="fa fa-calendar"></i><?php _e('Daily Archive:','hueman'); ?> 
+			<?php if ( function_exists('bcn_display') ) {
+				bcn_display();
+			} ?>
+		</h1>
 		
 	<?php elseif ( is_month() ): ?>
-		<h1><i class="fa fa-calendar"></i><?php _e('Monthly Archive:','hueman'); ?> <span><?php echo get_the_time('F Y'); ?></span></h1>
-			
+		<h1><i class="fa fa-calendar"></i><?php _e('Monthly Archive:','hueman'); ?>
+			<?php if ( function_exists('bcn_display') ) {
+				bcn_display();
+			} ?>
+		</h1>
+					
 	<?php elseif ( is_year() ): ?>
-		<h1><i class="fa fa-calendar"></i><?php _e('Yearly Archive:','hueman'); ?> <span><?php echo get_the_time('Y'); ?></span></h1>
+		<h1><i class="fa fa-calendar"></i><?php _e('Yearly Archive:','hueman'); ?> 
+			<?php if ( function_exists('bcn_display') ) {
+				bcn_display();
+			} ?>
+		</h1>
 	
 	<?php else: ?>
 		<h2><?php the_title(); ?></h2>
