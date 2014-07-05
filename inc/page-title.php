@@ -32,7 +32,7 @@
 	<?php elseif ( is_category() ): ?>
 		<h1><i class="fa fa-folder-open"></i><?php _e('Category:','hueman'); ?>
 			<?php if ( function_exists('bcn_display') ) {
-				bcn_display('<span id="breadcrumbs">','</span>');
+				bcn_display();
 			} ?>
 		</h1>
 	<?php elseif ( is_tag() ): ?>
