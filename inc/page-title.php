@@ -31,8 +31,11 @@
 		<h1><i class="fa fa-user"></i><?php _e('Author:','hueman'); ?> <span><?php echo $author->display_name;?></span></h1>
 		
 	<?php elseif ( is_category() ): ?>
-		<h1><i class="fa fa-folder-open"></i><?php _e('Category:','hueman'); ?> <span><?php echo single_cat_title('', false); ?></span></h1>
-
+		<h1><i class="fa fa-folder-open"></i><?php _e('Category:','hueman'); ?>
+			<?php if ( function_exists('yoast_breadcrumb') ) {
+				yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+			} ?>
+		</h1>
 	<?php elseif ( is_tag() ): ?>
 		<h1><i class="fa fa-tags"></i><?php _e('Tagged:','hueman'); ?> <span><?php echo single_tag_title('', false); ?></span></h1>
 		
