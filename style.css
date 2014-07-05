@@ -55,3 +55,7 @@ table.results span.result {
 	vertical-align: middle;
 	width: 40px;
 }
+
+.widget_categories > ul > li > ul.children {
+	margin-left: 10px;
+}
