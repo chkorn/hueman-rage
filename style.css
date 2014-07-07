@@ -67,6 +67,9 @@ table.results span.result {
 .supporters {
 	margin-left: 0px !important;
 }
+.supporters > li > div {
+	display: inline-block;
+}
 .supporters > li > div.logo {
 	width: 160px;
 	height: 160px;
