@@ -59,3 +59,13 @@ table.results span.result {
 .widget_categories > ul > li > ul.children {
 	margin-left: 10px;
 }
+
+.supporters {
+	display: block;
+	float: left;
+}
+.supporters > .tile {
+	width: 33%;
+	height: 150px;
+	display: table-cell;
+}
