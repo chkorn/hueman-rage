@@ -59,11 +59,17 @@ table.results span.result {
 .widget_categories > ul > li > ul.children {
 	margin-left: 10px;
 }
-
-.supporters {
+.supporters,
+.supporters > li {
 	list-style-type: none;
 }
-.supporters > li > .logo {
+.supporters {
+	margin-left: -30px;
+}
+.supporters > li > div.logo {
 	width: 160px;
 	height: 160px;
+}
+.supporters > li > div.text {
+	width: 550px;
 }
