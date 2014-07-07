@@ -66,18 +66,21 @@ table.results span.result {
 }
 .supporters > li {
 	background: #f1f1f1;
+	height: 200px;
+	margin-bottom: 10px;
 }
 .supporters {
 	margin-left: 0px !important;
 }
 .supporters > li > div {
 	display: inline-block;
+	padding: 10px;
 }
 .supporters > li > div.logo {
 	width: 160px;
 	height: 160px;
 }
 .supporters > li > div.text {
-	width: 520px;
+	width: 500px;
 	vertical-align: middle;
 }
