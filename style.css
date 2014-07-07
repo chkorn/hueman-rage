@@ -73,14 +73,15 @@ table.results span.result {
 	margin-left: 0px !important;
 }
 .supporters > li > div {
-	display: inline-block;
+	display: table-cell;
+	vertical-align: middle;
 	padding: 10px;
 }
 .supporters > li > div.logo {
 	width: 160px;
 	height: 160px;
+	text-align: center;
 }
 .supporters > li > div.text {
 	width: 500px;
-	vertical-align: middle;
 }
