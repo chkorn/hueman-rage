@@ -64,12 +64,12 @@ table.results span.result {
 	list-style-type: none !important;
 }
 .supporters {
-	margin-left: -30px !important;
+	margin-left: 0px !important;
 }
 .supporters > li > div.logo {
 	width: 160px;
 	height: 160px;
 }
 .supporters > li > div.text {
-	width: 550px;
+	width: 520px;
 }
