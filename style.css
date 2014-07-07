@@ -64,6 +64,9 @@ table.results span.result {
 	list-style-type: none !important;
 	display: block;
 }
+.supporters > li {
+	background: #f1f1f1;
+}
 .supporters {
 	margin-left: 0px !important;
 }
