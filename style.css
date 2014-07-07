@@ -62,6 +62,7 @@ table.results span.result {
 .supporters,
 .supporters > li {
 	list-style-type: none !important;
+	display: block;
 }
 .supporters {
 	margin-left: 0px !important;
@@ -72,4 +73,5 @@ table.results span.result {
 }
 .supporters > li > div.text {
 	width: 520px;
+	vertical-align: middle;
 }
