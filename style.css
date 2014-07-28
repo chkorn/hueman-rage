@@ -89,5 +89,8 @@ table.results span.result {
 .factlist td, 
 .factlist tr, 
 .factlist th {
-	text-align: left;
+	text-align: left !important;
+}
+.factlist {
+	width: 100% !important;
 }
