@@ -85,12 +85,12 @@ table.results span.result {
 .supporters > li > div.text {
 	width: 500px;
 }
-.factlist,
-.factlist td, 
-.factlist tr, 
-.factlist th {
+.entry .factlist,
+.entry .factlist td, 
+.entry .factlist tr, 
+.entry .factlist th {
 	text-align: left !important;
 }
-.factlist {
+.entry .factlist {
 	width: 100% !important;
 }
