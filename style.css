@@ -14,7 +14,7 @@
  *  Theme customization starts here
 /* ------------------------------------------------------------------------- */
 
-@import  "http://fonts.googleapis.com/css?family=Allura";
+@import  "//fonts.googleapis.com/css?family=Allura";
 
 /* Move Site description a bit... */
 .site-description {
