@@ -94,3 +94,25 @@ table.results span.result {
 .entry .factlist {
 	width: 720px !important;
 }
+
+/* Dynamic Theme stuff... */
+.s2 .post-nav li a:hover i,
+.s2 .widget_rss ul li a,
+.s2 .widget_calendar a,
+.s2 .alx-tab .tab-item-category a,
+.s2 .alx-posts .post-item-category a,
+.s2 .alx-tab li:hover .tab-item-title a,
+.s2 .alx-tab li:hover .tab-item-comment a,
+.s2 .alx-posts li:hover .post-item-title a { color: #50beff; }
+
+.s2 .sidebar-top,
+.s2 .sidebar-toggle,
+.post-comments,
+.jp-play-bar,
+.jp-volume-bar-value,
+.s2 .widget_calendar caption { background-color: #50beff; }
+
+.s2 .alx-tabs-nav li.active a { border-bottom-color: #50beff; }
+.post-comments span:before { border-right-color: #50beff; }				
+				
+.site-title a img { max-height: 80px; }
