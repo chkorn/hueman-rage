@@ -103,7 +103,7 @@ table.results span.result {
 .s2 .alx-posts .post-item-category a,
 .s2 .alx-tab li:hover .tab-item-title a,
 .s2 .alx-tab li:hover .tab-item-comment a,
-.s2 .alx-posts li:hover .post-item-title a { color: #50beff; }
+.s2 .alx-posts li:hover .post-item-title a { color: #50beff !important; }
 
 .s2 .sidebar-top,
 .s2 .sidebar-toggle,
@@ -115,4 +115,4 @@ table.results span.result {
 .s2 .alx-tabs-nav li.active a { border-bottom-color: #50beff; }
 .post-comments span:before { border-right-color: #50beff; }				
 				
-.site-title a img { max-height: 80px; }
+.site-title a img { max-height: 80px !important; }
