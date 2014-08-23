@@ -8,7 +8,9 @@
 	Version: 1.0.0
 */
 
-@import url("../hueman/style.css");
+/* 
+NOT NEEDED WITH W3 TOTAL CACHE
+@import url("../hueman/style.css"); */
 
 /* ------------------------------------------------------------------------- *
  *  Theme customization starts here
