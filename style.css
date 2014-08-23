@@ -14,17 +14,6 @@
  *  Theme customization starts here
 /* ------------------------------------------------------------------------- */
 
-@import  url("//fonts.googleapis.com/css?family=Allura");
-
-/* Move Site description a bit... */
-.site-description {
-	font-family: 'Allura', Verdana, Geneva, sans-serif;
-	font-size: 70px;
-	color: #f0f0f0;
-	text-decoration: none;
-	margin-top: 15px;
-}
-
 /* Display match-results in a nice way... */
 table.results td:nth-child(1) {
 	text-align: right;
