@@ -30,3 +30,4 @@ if ( ! function_exists( 'alx_load' ) ) {
 	}
 	
 }
+add_action( 'after_setup_theme', 'alx_load' );	
