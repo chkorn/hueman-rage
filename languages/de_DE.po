@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hueman\n"
+"POT-Creation-Date: 2013-12-27 14:37+0100\n"
+"PO-Revision-Date: 2014-04-22 13:45+0100\n"
+"Last-Translator: Daniel Sonntag <daniel.sonntag@outlook.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:14
+msgid ""
+"The page you are trying to reach does not exist, or has been moved. Please "
+"use the menus or the search box to find what you are looking for."
+msgstr ""
+"Die von dir angeforderte Seite existiert nicht oder nicht mehr. Bitte nutze "
+"die Menüs oder die Suchbox um zu finden, was du suchst."
+
+#: ../comments.php:7
+msgid "No Responses"
+msgstr "Keine Antworten"
+
+#: ../comments.php:7
+msgid "1 Response"
+msgstr "1 Antwort"
+
+#: ../comments.php:7
+msgid "% Responses"
+msgstr "% Antworten"
+
+#: ../comments.php:10
+msgid "Comments"
+msgstr "Kommentare"
+
+#: ../comments.php:11
+msgid "Trackbacks &amp; Pingbacks"
+msgstr "Trackbacks &amp; Pingbacks"
+
+#: ../footer.php:67
+msgid "All Rights Reserved."
+msgstr "Alle Rechte vorbehalten."
+
+#: ../footer.php:73
+msgid "Powered by"
+msgstr "Powered by"
+
+#: ../footer.php:73
+msgid "Theme by"
+msgstr "Theme by"
+
+#: ../search.php:10
+msgid "For the term"
+msgstr "Für den Begriff"
+
+#: ../search.php:12
+msgid "Please try another search:"
+msgstr "Bitte versuche eine neue Suche:"
+
+#: ../searchform.php:3
+msgid "To search type and hit enter"
+msgstr "Suchbegriff"
+
+#: ../sidebar-2.php:5 ../sidebar.php:9
+msgid "Expand Sidebar"
+msgstr "Sidebar erweitern"
+
+#: ../sidebar-2.php:10
+msgid "More"
+msgstr "Mehr"
+
+#: ../sidebar.php:14
+msgid "Follow:"
+msgstr "Folgen:"
+
+#: ../single.php:14
+msgid "by"
+msgstr "von"
+
+#: ../single.php:23
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: ../single.php:35
+msgid "Tags:"
+msgstr "Tags:"
+
+#: ../functions/widgets/alx-tabs.php:27
+msgid "Recent Posts"
+msgstr "Letzte Beiträge"
+
+#: ../functions/widgets/alx-tabs.php:28
+msgid "Popular Posts"
+msgstr "Beliebteste Beiträge"
+
+#: ../functions/widgets/alx-tabs.php:29
+msgid "Recent Comments"
+msgstr "Letzte Kommentare"
+
+#: ../functions/widgets/alx-tabs.php:30
+msgid "Tags"
+msgstr "Tags"
+
+#: ../functions/widgets/alx-tabs.php:185
+msgid "says:"
+msgstr "sagt:"
+
+#: ../inc/page-title.php:19
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#: ../inc/page-title.php:22
+msgid "Error 404."
+msgstr "Fehler 404."
+
+#: ../inc/page-title.php:22
+msgid "Page not found!"
+msgstr "Seite nicht gefunden!"
+
+#: ../inc/page-title.php:26
+msgid "Author:"
+msgstr "Autor:"
+
+#: ../inc/page-title.php:29
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: ../inc/page-title.php:32
+msgid "Tagged:"
+msgstr "Tagged:"
+
+#: ../inc/page-title.php:35
+msgid "Daily Archive:"
+msgstr "Tägliches Archiv:"
+
+#: ../inc/page-title.php:38
+msgid "Monthly Archive:"
+msgstr "Monatliches Archiv:"
+
+#: ../inc/page-title.php:41
+msgid "Yearly Archive:"
+msgstr "Jährliches Archiv:"
+
+#: ../inc/post-nav.php:3
+msgid "Next story"
+msgstr "Nächster Beitrag"
+
+#: ../inc/post-nav.php:4
+msgid "Previous story"
+msgstr "Vorheriger Beitrag"
+
+#: ../inc/related-posts.php:6
+msgid "You may also like..."
+msgstr "Das könnte dir auch gefallen..."
+
+#: ../inc/sharrre.php:2
+msgid "Share"
+msgstr "Teilen"
