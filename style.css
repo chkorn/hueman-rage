@@ -110,3 +110,10 @@ table.results span.result {
 .post-comments span:before { border-right-color: #50beff; }				
 				
 .site-title a img { max-height: 80px !important; }
+
+.sidebar-supporter {
+  text-align: center;
+}
+.sidebar-supporter img {
+  max-width: 160px;
+}
