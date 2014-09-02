@@ -73,6 +73,9 @@ table.results span.result {
 	height: 160px;
 	text-align: center;
 }
+.supporters > li > div.logo > img {
+	width: 160px;
+}
 .supporters > li > div.text {
 	width: 500px;
 }
