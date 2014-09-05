@@ -73,6 +73,9 @@ table.results span.result {
 	height: 160px;
 	text-align: center;
 }
+.supporters > li > div.logo > img {
+	width: 160px;
+}
 .supporters > li > div.text {
 	width: 500px;
 }
@@ -107,3 +110,71 @@ table.results span.result {
 .post-comments span:before { border-right-color: #50beff; }				
 				
 .site-title a img { max-height: 80px !important; }
+
+.sidebar-supporter {
+  text-align: center;
+}
+.sidebar-supporter a img {
+  max-width: 160px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.sidebar-supporter a:hover img {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+}
+
+/* Timeline Stuff */
+.timeline {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.timeline div.year {
+	margin: 0px;
+	padding: 20px 10px;
+	border-left: 4px solid #ccc;
+	margin-left: 40px;
+}
+.timeline h4 {
+	margin: 0px;
+	padding: 10px;
+	font-size: 30px;
+}
+.timeline div.year > ul > ul,
+.timeline div.year > ul > li {
+	list-style-type: none;
+}
+.timeline li time {
+	border: 2px solid #fbfbfb;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	vertical-align: middle;
+	text-align: center;
+	background: #eee;
+	margin-left: -49px;
+	margin-right: 20px;
+	margin-top: -4px;
+	margin-right: 17px;
+}
+.timeline li.major time {
+	width: 15px;
+	height: 15px;
+	background: #ffd44d;
+	margin-left: -51px;
+	margin-right: 15px;
+}
+.timeline li.major {
+	font-weight: 600;
+	padding: 5px 0px;
+}
+.timeline li.dpl time {
+	background: #ad685e;
+}
+.timeline li {
+	padding: 5px 0px;
+}
